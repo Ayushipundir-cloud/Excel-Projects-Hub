@@ -6,7 +6,10 @@ AdventureWorks is a Microsoft sample database representing a fictional global bi
 
 ## Data set used
 🗂️ Data Structure – Star Schema
-The dataset follows a Star Schema model consisting of one central Fact Table connected to multiple Dimension Tables:
+The dataset follows a Star Schema model consisting of one central Fact Table connected to multiple Dimension Tables: 
+
+TableTypeDescriptionUnion (FactInternetSales)FactCore transactional data — sales revenue, order quantity, profit, costDimCustomerDimensionCustomer profiles, demographics, income level, educationDimProductDimensionProduct names, SKUs, standard cost, list priceDimProductCategoryDimensionHigh-level product categories (Bikes, Accessories, Clothing)DimProductSubCategoryDimensionSub-level product groupings under each categoryDimDateDimensionFull date hierarchy — day, month, quarter, year, fiscal yearDimSalesTerritoryDimensionRegional groupings — country, region, and sales zone
+
 |Table |                       | Type |              | Description |
 | :--- |                       | :--- |              | :--- |
 |Union |                       | Fact |              | Core transactional data — sales revenue, order quantity,profit,cost |
