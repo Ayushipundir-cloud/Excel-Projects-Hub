@@ -8,19 +8,30 @@ AdventureWorks is a Microsoft sample database representing a fictional global bi
 🗂️ Data Structure – Star Schema
 The dataset follows a Star Schema model consisting of one central Fact Table connected to multiple Dimension Tables: 
 
-TableTypeDescriptionUnion (FactInternetSales)FactCore transactional data — sales revenue, order quantity, profit, costDimCustomerDimensionCustomer profiles, demographics, income level, educationDimProductDimensionProduct names, SKUs, standard cost, list priceDimProductCategoryDimensionHigh-level product categories (Bikes, Accessories, Clothing)DimProductSubCategoryDimensionSub-level product groupings under each categoryDimDateDimensionFull date hierarchy — day, month, quarter, year, fiscal yearDimSalesTerritoryDimensionRegional groupings — country, region, and sales zone
+## 📊 Dataset Structure — Star Schema
 
-📊 Key Business Metrics Analyzed
+| Table | Type | Description |
+|---|---|---|
+| **Union** (FactInternetSales) | Fact | Core transactional data — sales revenue, order quantity, profit, cost |
+| **DimCustomer** | Dimension | Customer profiles, demographics, income level, education |
+| **DimProduct** | Dimension | Product names, SKUs, standard cost, list price |
+| **DimProductCategory** | Dimension | High-level product categories (Bikes, Accessories, Clothing) |
+| **DimProductSubCategory** | Dimension | Sub-level product groupings under each category |
+| **DimDate** | Dimension | Full date hierarchy — day, month, quarter, year, fiscal year |
+| **DimSalesTerritory** | Dimension | Regional groupings — country, region, and sales zone |
 
-Total Sales Revenue – Overall internet sales performance across time periods
-Total Profit – Revenue minus product cost for margin analysis
-Sales vs Budget – Actual performance benchmarked against sales targets
-Order Quantity – Volume of transactions across products and regions
-Top Performing Products – Identifying best-selling SKUs by revenue and quantity
-Customer Segmentation – Analysis by age group, income level, and geography
-Regional Contributions – Country-wise and territory-wise revenue breakdown
-Year-over-Year Trends – Multi-year sales trends and seasonal patterns
+## 📈 Key Business Metrics Analyzed
 
+| Metric | Description |
+|---|---|
+| **Total Sales Revenue** | Overall internet sales performance across time periods |
+| **Total Profit** | Revenue minus product cost for margin analysis |
+| **Sales vs Budget** | Actual performance benchmarked against sales targets |
+| **Order Quantity** | Volume of transactions across products and regions |
+| **Top Performing Products** | Identifying best-selling SKUs by revenue and quantity |
+| **Customer Segmentation** | Analysis by age group, income level, and geography |
+| **Regional Contributions** | Country-wise and territory-wise revenue breakdown |
+| **Year-over-Year Trends** | Multi-year sales trends and seasonal patterns |
 
 🔍 Key Business Insights from the Dataset
 
