@@ -14,6 +14,8 @@ AdventureWorks is a Microsoft sample database representing a fictional global bi
 | **DimDate** | Dimension | Full date hierarchy — day, month, quarter, year, fiscal year |
 | **DimSalesTerritory** | Dimension | Regional groupings — country, region, and sales zone |
 
+[View Dashboard] (https://github.com/Ayushipundir-cloud/Excel-Projects-Hub/blob/main/Dashboard.png)
+
 ## 📈 Key Business Metrics Analyzed
 
 | Metric | Description |
