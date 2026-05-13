@@ -7,14 +7,15 @@ AdventureWorks is a Microsoft sample database representing a fictional global bi
 ## Data set used
 🗂️ Data Structure – Star Schema
 The dataset follows a Star Schema model consisting of one central Fact Table connected to multiple Dimension Tables:
-Table                          Type                Description
-Union                          Fact                Core transactional data — sales revenue, order quantity,profit,cost 
-DimCustomer                    Dimension           Customer profiles, demographics, income level, education
-DimProduct                     Dimension           Product names, SKUs, standard cost, list price
-DimProductCategory             Dimension           High-level product categories (Bikes,Accessories,Clothing)     
-DimProductSubCategory          Dimension           Sub-level product groupings under each category
-DimDate                        Dimension           Full date hierarchy — day, month, quarter, year, fiscal Year
-DimSalesTerritory              Dimension           Regional groupings — country, region, and sales zone.
+|Table |                       | Type |              | Description |
+| :--- |                       | :--- |              | :--- |
+|Union |                       | Fact |              | Core transactional data — sales revenue, order quantity,profit,cost |
+|DimCustomer|                  | Dimension |         | Customer profiles, demographics, income level, education |
+|DimProduct |                  | Dimension |         | Product names, SKUs, standard cost, list price |
+|DimProductCategory |          | Dimension |         | High-level product categories (Bikes,Accessories,Clothing) |   
+|DimProductSubCategory|        | Dimension |         | Sub-level product groupings under each category |
+|DimDate|                      | Dimension |         | Full date hierarchy — day, month, quarter, year, fiscal Year |
+|DimSalesTerritory |           | Dimension |         | Regional groupings — country, region, and sales zone.|
 
 📊 Key Business Metrics Analyzed
 
