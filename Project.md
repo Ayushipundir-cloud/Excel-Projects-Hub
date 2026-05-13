@@ -10,16 +10,6 @@ The dataset follows a Star Schema model consisting of one central Fact Table con
 
 TableTypeDescriptionUnion (FactInternetSales)FactCore transactional data — sales revenue, order quantity, profit, costDimCustomerDimensionCustomer profiles, demographics, income level, educationDimProductDimensionProduct names, SKUs, standard cost, list priceDimProductCategoryDimensionHigh-level product categories (Bikes, Accessories, Clothing)DimProductSubCategoryDimensionSub-level product groupings under each categoryDimDateDimensionFull date hierarchy — day, month, quarter, year, fiscal yearDimSalesTerritoryDimensionRegional groupings — country, region, and sales zone
 
-|Table |                       | Type |              | Description |
-| :--- |                       | :--- |              | :--- |
-|Union |                       | Fact |              | Core transactional data — sales revenue, order quantity,profit,cost |
-|DimCustomer|                  | Dimension |         | Customer profiles, demographics, income level, education |
-|DimProduct |                  | Dimension |         | Product names, SKUs, standard cost, list price |
-|DimProductCategory |          | Dimension |         | High-level product categories (Bikes,Accessories,Clothing) |   
-|DimProductSubCategory|        | Dimension |         | Sub-level product groupings under each category |
-|DimDate|                      | Dimension |         | Full date hierarchy — day, month, quarter, year, fiscal Year |
-|DimSalesTerritory |           | Dimension |         | Regional groupings — country, region, and sales zone.|
-
 📊 Key Business Metrics Analyzed
 
 Total Sales Revenue – Overall internet sales performance across time periods
