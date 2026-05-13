@@ -2,11 +2,7 @@ AdventureWorks Project
 
 - [View Dashboard](https://github.com/Ayushipundir-cloud/Excel-Projects-Hub/blob/main/Dashboard.png)
 
-AdventureWorks is a Microsoft sample database representing a fictional global bicycle manufacturing and sales company. It is one of the most widely used datasets in the data analytics and business intelligence community for hands-on learning and portfolio projects
-
-## Data set used
-🗂️ Data Structure – Star Schema
-The dataset follows a Star Schema model consisting of one central Fact Table connected to multiple Dimension Tables: 
+AdventureWorks is a Microsoft sample database representing a fictional global bicycle manufacturing and sales company. It is one of the most widely used datasets in the data analytics and business intelligence community for hands-on learning and portfolio.
 
 ## 📊 Dataset Structure — Star Schema
 
