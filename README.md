@@ -39,7 +39,9 @@ The Budget table enables variance analysis — comparing planned vs actual sales
 
 
 🛠️ Tools & Techniques Applied
-Tool / TechniquePurposePower QueryData import, cleaning, transformation, and shapingPower PivotData modeling and building relationships between tablesPivot TablesSummarizing and aggregating data dynamicallyDAX MeasuresCustom KPIs, calculated columns, and business metricsCharts & VisualsBar, line, map, and pie charts for insight communicationExcel MacrosAutomating repetitive reporting tasksConditional FormattingHighlighting KPI performance thresholds
+Power Query Data import, cleaning, transformation, and shapingPower PivotData modeling 
+Building relationships between tablesPivot TablesSummarizing and aggregating data dynamically
+DAX MeasuresCustom KPIs, calculated columns, and business metricsCharts & VisualsBar, line, map, and pie charts.
 
 ✅ Skills Demonstrated
 
@@ -54,11 +56,13 @@ Time-series analysis and year-over-year comparisons
 - Pivot Tables & Charts
 - Dashboard Design
 
-* How to Use
+## How to Use
 
 Clone or download this repository
 Open the .xlsx files in Microsoft Excel (2016 or later recommended)
+
 Navigate to the Dashboard sheet to explore the interactive visuals
+
 Use slicers and filters to drill down by product, region, or time period
 
 <img width="915" height="393" alt="Dashboard" src="https://github.com/user-attachments/assets/239fa63c-8900-4ebd-8cd4-2742cb212dd7" />
